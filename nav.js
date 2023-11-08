@@ -10,6 +10,21 @@ export const nav =  `
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/">Accueil</a>
           </li>
+          <li>
+          <form>
+            <div>
+              <input
+                type="search"
+                id="mySearch"
+                name="q"
+                placeholder="Recherche sur le site…"
+                required />
+              <button>Rechercher</button>
+              <span class="validity"></span>
+            </div>
+          </form>
+
+          </li>
         </ul>
       </div>
     </div>

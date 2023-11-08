@@ -12,8 +12,8 @@ export const data = [
   },
   {
     id: 2,
-    prenom: 'Bob',
-    nom: 'Martin',
+    prenom: 'Wob',
+    nom: 'Wartin',
     date_de_naissance: '1990-07-25',
     avatar: '/img/2.png',
     numero_de_telephone: '+33 6 98 76 54 32',

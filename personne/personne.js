@@ -22,7 +22,10 @@ const detailsPersonne = () => {
         <div class="card-body">
           <h5 class="card-title">${personne.prenom} ${personne.nom}</h5>
           <p class="card-text">
-            ...
+          <p> ${personne.date_de_naissance}</p>
+          <p> ${personne.numero_de_telephone}</p>
+          <p> ${personne.adresse_email}</p>
+          <p> ${personne.description}</p>
           </p>
         </div>
       </div>
